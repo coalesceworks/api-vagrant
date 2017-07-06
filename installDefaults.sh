@@ -8,6 +8,7 @@ sudo apt-get -y install postgresql-9.4
 sudo apt-get -y install postgresql-client
 sudo apt-get -y install git
 sudo apt-get -y install curl
+sudo apt-get -y install git-flow
 sudo apt-get -y install linux-image-extra-$(uname -r)
 sudo apt-get -y install linux-image-extra-virtual
 sudo apt-get -y install apt-transport-https ca-certificates software-properties-common
@@ -50,3 +51,4 @@ sudo sh /etc/profile.d/oraclejdk.sh
 echo "source to JDK path complete endof script"
 
 sudo apt-get -y update
+sudo apt-get -y upgrade
